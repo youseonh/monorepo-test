@@ -4,5 +4,8 @@
   "main": "./src/index.ts",
   "dependencies": {
     "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "typecheck": "tsc --project ./tsconfig.json --noEmit"
   }
 }
